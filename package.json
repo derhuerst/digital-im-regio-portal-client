@@ -1,7 +1,7 @@
 {
 	"name": "digital-im-regio-portal-client",
 	"description": "Query information from the Digital im Regio portal in German Regio trains.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"files": [
 		"index.js",

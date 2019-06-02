@@ -76,7 +76,11 @@ const fetchStatus = () => {
 	return request('schedule.jason', {
 		headers: {'Accept': 'application/json'}
 	})
-	.then((res) => { // todo
+	.then((res) => {
+		if (!res.type) {
+			throw new Error('got an empty response. are you in the train wifi?')
+		}
+
 		return {
 			...omit(res, [
 				'jobs', 'timestamp', 'validUntil', // todo: what are these for?
