@@ -1,0 +1,31 @@
+{
+	"name": "digital-im-regio-portal-client",
+	"description": "Query information from the Digital im Regio portal in German Regio trains.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"example.js"
+	],
+	"keywords": [
+		"regio",
+		"re",
+		"regional",
+		"db",
+		"train"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/digital-im-regio-portal-client",
+	"repository": "derhuerst/digital-im-regio-portal-client",
+	"bugs": "https://github.com/derhuerst/digital-im-regio-portal-client/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=8"
+	},
+	"dependencies": {
+		"fetch-ponyfill": "^6.0.2",
+		"lodash": "^4.17.11",
+		"luxon": "^1.16.0",
+		"pinkie-promise": "^2.0.1"
+	}
+}
